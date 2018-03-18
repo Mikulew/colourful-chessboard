@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555A5C;
+    width: 100%;
+    height: 100%;
+}
+
+.board {
+    background-color: #ffffff;
+    width: 420px;
+    height: 420px;
+}
+
+.tile-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 33.33%;
+}
+
+.tile {
+    width: 140px;
+    height: 140px;
+    border: 2px #ffffff solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    background-color: red;
+    border-radius: 50%;
+    border: 1px #000000 solid;
+    width: 70px;
+    height: 70px;
+}
+
+.tile-1 {
+    background-color: #fe0000;
+}
+
+.tile-2 {
+    background-color: #0000fe;
+}
+
+.tile-3 {
+    background-color: #008001;
+}
+
+.tile-4 {
+    background-color: #ffff01;
+}
+
+.tile-5 {
+    background-color: #000000;
+}
+
+.tile-6 {
+    background-color: #fea500;
+}
+
+.tile-7 {
+    background-color: #81007f;
+}
+
+.tile-8 {
+    background-color: #808080;
+}
+
+.tile-9 {
+    background-color: #fec1c9;
+}
+
+.circle-1 {
+    background-color:#ffc0cb;
+}
+
+.circle-2 {
+    background-color:#808080;
+}
+
+.circle-3 {
+    background-color:#81007f;
+}
+
+.circle-4 {
+    background-color:#008001;
+}
+
+.circle-5 {
+    background-color:#fe0000;
+}
+
+.circle-6 {
+    background-color:#0000fe;
+}
+
+.circle-7 {
+    background-color:#fea500;
+}
+
+.circle-8 {
+    background-color:#ffff01;
+}
+
+.circle-9 {
+    background-color:#000000;
+}
